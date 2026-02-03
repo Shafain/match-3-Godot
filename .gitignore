@@ -1,0 +1,12 @@
+.import/
+.godot/
+.export/
+.export_presets.cfg
+.mono/
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.import
+
