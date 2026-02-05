@@ -2,6 +2,7 @@ extends Node2D
 
 export (String) var color;
 var move_tween;
+var matched = false;
 
 func _ready():
 	move_tween = get_node("move_tween");
@@ -11,8 +12,11 @@ func move(target):
 	move_tween.start();
 	pass;
 	
+func dim():
+	var sprite = get_node("Sprite");
+	sprite.modulate = Color(1, 1, 1, .5);
+	
+	
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	pass
