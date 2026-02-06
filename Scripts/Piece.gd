@@ -16,7 +16,5 @@ func dim():
 	var sprite = get_node("Sprite");
 	sprite.modulate = Color(1, 1, 1, .5);
 	
-	
-
 func _process(delta):
 	pass
